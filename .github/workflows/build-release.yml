@@ -1,0 +1,46 @@
+name: Build & Release Packs
+
+# Runs whenever any manifest.json changes on master. The build script itself
+# decides whether a version actually changed - if not, it exits without
+# building or releasing anything.
+on:
+  push:
+    branches: [master]
+    paths:
+      - "**/manifest.json"
+  workflow_dispatch: # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write # to push the version tracker and create the Release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build packs
+        id: build
+        run: python3 scripts/build_packs.py
+
+      - name: Commit updated version tracker
+        if: steps.build.outputs.should_build == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/pack-versions.json
+          git commit -m "chore: update pack version tracker [skip ci]"
+          git push
+
+      - name: Create Release
+        if: steps.build.outputs.should_build == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ github.run_number }}
+          name: "Automated Build #${{ github.run_number }}"
+          body_path: CHANGELOG_RUN.md
+          files: dist/*
