@@ -1,0 +1,23 @@
+[
+    "textures/blocks/coal_ore",
+    "textures/blocks/copper_ore",
+    "textures/blocks/deepslate/deepslate_coal_ore",
+    "textures/blocks/deepslate/deepslate_copper_ore",
+    "textures/blocks/deepslate/deepslate_diamond_ore",
+    "textures/blocks/deepslate/deepslate_emerald_ore",
+    "textures/blocks/deepslate/deepslate_gold_ore",
+    "textures/blocks/deepslate/deepslate_iron_ore",
+    "textures/blocks/deepslate/deepslate_lapis_ore",
+    "textures/blocks/deepslate/deepslate_redstone_ore",
+    "textures/blocks/deepslate/deepslate_redstone_ore_lit",
+    "textures/blocks/diamond_ore",
+    "textures/blocks/emerald_ore",
+    "textures/blocks/gilded_blackstone",
+    "textures/blocks/gold_ore",
+    "textures/blocks/iron_ore",
+    "textures/blocks/lapis_ore",
+    "textures/blocks/nether_gold_ore",
+    "textures/blocks/quartz_ore",
+    "textures/blocks/redstone_ore",
+    "textures/blocks/redstone_ore_lit"
+]
