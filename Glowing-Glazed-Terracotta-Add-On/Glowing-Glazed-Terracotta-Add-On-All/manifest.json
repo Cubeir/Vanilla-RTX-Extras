@@ -1,0 +1,57 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Glowing Glazed Terracotta Add-On",
+        "description": "Makes glazed terracotta patterns glow!\nIncludes options for Vanilla RTX Normals & Opus.",
+        "uuid": "35475807-d745-4d27-aa5a-5d52e2b09d0a",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_all_glowing_glazedterracotta",
+            "type": "resources",
+            "uuid": "b20aae61-096a-42ff-9044-e245202aabf7",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "o",
+            "name": "Vanilla RTX Opus",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "n",
+            "name": "Vanilla RTX Normals",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "d",
+            "name": "Vanilla RTX",
+            "memory_tier": 1
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/vanilla-rtx-add-ons"
+    }
+}
