@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vanilla RTX Before the Updates",
+        "description": "Cubeir's personally modified variant of Vanilla RTX to bring back Minecraft RTX vibes like its twenty-twenty!\nUse alongside the Gamescom 2019 lut preset from the app!",
+        "uuid": "3aa1cf49-aeaa-49d6-8474-fc5034f2436a",
+        "pack_scope": "any",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "ye_olde_resonator",
+            "type": "resources",
+            "uuid": "3ed5b012-cdd1-4b20-8afb-6064845e4085",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir",
+            "Special thanks to thousands of Patreon, and later Ko-Fi members of Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/vanilla-rtx/blob/master/LICENSE.txt",
+        "url": "http://curseforge.com/minecraft-bedrock/texture-packs/vanilla-rtx"
+    }
+}
