@@ -1,0 +1,9 @@
+Leave glass files in Enhanced folder.
+The BTU production workflow merges BTU onto Vanilla RTX first
+Generates the Normal maps from heightmaps, saves them as _normal, which ends up overwriting glass normals!
+We don't want that
+But since Enhanced is merged during PACKAGING phase, it ends up overwriting the normals that were made from heightmaps!
+
+Technically, for this reason, you should include Portal files here as well, but since it doesn't have a heightmap in Vanilla RTX, it didn't end up causing trouble!
+
+TLDR Basically any block that has a special custom normal in this pack, which is supposed to be heightmaps only, must go in Enhanced if you want to make sure it overwrites the heightmap-generated one at the end.

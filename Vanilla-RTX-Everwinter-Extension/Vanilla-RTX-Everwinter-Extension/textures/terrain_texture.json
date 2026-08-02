@@ -1,0 +1,179 @@
+{
+    "resource_pack_name": "vanilla_rtx_everwinter",
+    "texture_name": "atlas.terrain",
+    "num_mip_levels": 1,
+    "texture_data": {
+        "grass_side": {
+            "textures": [
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                {
+                    "path": "textures/blocks/grass_side_snowed"
+                },
+                "textures/blocks/grass_side_snowed"
+            ]
+        },
+        "grass_top": {
+            "textures": [
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                {
+                    "path": "textures/blocks/snow"
+                },
+                "textures/blocks/snow"
+            ]
+        },
+        "grass_bottom": {
+            "textures": [
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt",
+                "textures/blocks/dirt"
+            ]
+        },
+        "grass_carried_top": {
+            "textures": {
+                "path": "textures/blocks/snow",
+                "overlay_color": "#FFFFFF"
+            }
+        },
+        "grass_carried_bottom": {
+            "textures": "textures/blocks/dirt"
+        },
+        "grass_carried": {
+            "textures": {
+                "path": "textures/blocks/grass_side_snowed",
+                "overlay_color": "#FFFFFF"
+            }
+        }
+    }
+}
