@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Chemistry RTX Normals",
+        "description": "Additional Education Edition resources for Vanilla RTX Normals.\nActivate per-world.",
+        "uuid": "7cfa4ed1-35ec-4db2-ab1c-42a6f197d05c",
+        "pack_scope": "world",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "chemistry_rtx_normals",
+            "type": "resources",
+            "uuid": "c88714fe-6cc4-4e90-9a90-9bb461d5b2ba",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced",
+        "chemistry"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/chemistry-rtx"
+    }
+}

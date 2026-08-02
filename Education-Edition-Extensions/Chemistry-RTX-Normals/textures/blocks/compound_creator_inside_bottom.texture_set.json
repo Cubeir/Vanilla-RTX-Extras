@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "compound_creator_inside_bottom",
+    "metalness_emissive_roughness_subsurface": "compound_creator_inside_bottom_mers",
+    "normal": "compound_creator_inside_bottom_normal"
+  }
+}

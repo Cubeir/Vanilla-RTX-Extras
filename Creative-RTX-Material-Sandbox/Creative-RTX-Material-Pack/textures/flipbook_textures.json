@@ -1,0 +1,44 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/element_073_ta",
+        "atlas_tile": "element_073_ta",
+        "ticks_per_frame": 8,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_078_pt",
+        "atlas_tile": "element_078_pt",
+        "ticks_per_frame": 3,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_079_au",
+        "atlas_tile": "element_079_au",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_102_no",
+        "atlas_tile": "element_102_no",
+        "ticks_per_frame": 5,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_116_lv",
+        "atlas_tile": "element_116_lv",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_117_ts",
+        "atlas_tile": "element_117_ts",
+        "ticks_per_frame": 1,
+        "blend_frames": true
+    },
+    {
+        "flipbook_texture": "textures/blocks/element_118_og",
+        "atlas_tile": "element_118_og",
+        "ticks_per_frame": 2,
+        "blend_frames": true
+    }
+]

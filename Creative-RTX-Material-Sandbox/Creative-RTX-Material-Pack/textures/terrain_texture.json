@@ -1,0 +1,28 @@
+{
+    "resource_pack_name": "creative_rtx",
+    "texture_name": "atlas.terrain",
+    "num_mip_levels": 0,
+    "texture_data": {
+        "element_073_ta": {
+            "textures": "textures/blocks/element_073_ta"
+        },
+        "element_078_pt": {
+            "textures": "textures/blocks/element_078_pt"
+        },
+        "element_079_au": {
+            "textures": "textures/blocks/element_079_au"
+        },
+        "element_102_no": {
+            "textures": "textures/blocks/element_102_no"
+        },
+        "element_116_lv": {
+            "textures": "textures/blocks/element_116_lv"
+        },
+        "element_117_ts": {
+            "textures": "textures/blocks/element_117_ts"
+        },
+        "element_118_og": {
+            "textures": "textures/blocks/element_118_og"
+        }
+    }
+}
