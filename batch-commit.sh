@@ -1,10 +1,10 @@
 #!/bin/bash
 # batch-commit.sh
 # Stages, commits, and pushes new files in small batches so progress
-# is saved incrementally — safe for slow/unstable connections.
+# is saved incrementally — safer for unstable connections.
 #
 # Run this from Git Bash, from the repo root:
-#   D:\Add-Ons - Vault>  bash batch-commit.sh
+# bash batch-commit.sh
 #
 # If a push fails partway through (timeout, dropped connection, etc.),
 # just re-run the script. Already-committed batches stay on disk and
