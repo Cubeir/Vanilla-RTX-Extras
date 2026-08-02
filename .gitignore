@@ -1,0 +1,29 @@
+# =========================================================
+# Add-Ons - Vault : .gitignore
+# =========================================================
+# Rule: exclude ANY folder (at any depth) whose name starts
+# with an underscore — e.g. _release_bundles, __VAULT,
+# _media_assets, _releases, etc. (personal archives)
+# =========================================================
+
+_*/
+
+# =========================================================
+# EXCEPTION: __enhancements folders contain real pack files
+# (not media/release junk), so explicitly un-ignore them
+# even though they start with underscores.
+# =========================================================
+
+!__enhancements/
+!__enhancements/**
+
+# =========================================================
+# Optional: common OS / editor clutter (safe to keep even
+# on a public repo). Remove this section if not wanted.
+# =========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak

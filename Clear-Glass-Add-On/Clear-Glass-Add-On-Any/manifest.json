@@ -1,0 +1,53 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Clear Glass Add-On",
+        "description": "Removes glass texture, features an option with deeper colors for light play with ray tracing.\nActivate above any Vanilla RTX resource pack.",
+        "uuid": "48edb187-ec56-4ce9-b065-025e182c9db7",
+        "pack_scope": "any",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_any_clear_glass",
+            "type": "resources",
+            "uuid": "41d09232-0c77-44fe-b382-a858fa33931d",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "1",
+            "name": "Saturated Glass - Deep colors for light play with RTX",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "0",
+            "name": "Default - Vanilla RTX glass without borders & streaks",
+            "memory_tier": 1
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/vanilla-rtx-add-ons"
+    }
+}
