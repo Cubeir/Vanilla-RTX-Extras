@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Glowing Concrete Add-On",
+        "description": "Replaces all concrete blocks with colorful glowing blocks. White concrete becomes the brightest possible block and black concrete the darkest possible material!\nActivate above any Vanilla RTX resource pack.",
+        "uuid": "46fa13a0-9001-4270-bb42-2f5269f2ad72",
+        "pack_scope": "any",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_any_glowing_concrete",
+            "type": "resources",
+            "uuid": "4f96eb31-1f0a-4dbc-84d7-8432a58adb6d",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/vanilla-rtx-add-ons"
+    }
+}
