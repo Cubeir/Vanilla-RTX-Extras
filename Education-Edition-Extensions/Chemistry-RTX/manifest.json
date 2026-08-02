@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Chemistry RTX",
+        "description": "Additional Education Edition resources for Vanilla RTX.\nActivate per-world.",
+        "uuid": "00b403b7-53e9-4002-b520-d069bb35dd24",
+        "pack_scope": "world",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "chemistry_rtx",
+            "type": "resources",
+            "uuid": "abfcfa3f-6f4b-4a3f-9b69-d3b697167231",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced",
+        "chemistry"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/chemistry-rtx"
+    }
+}
