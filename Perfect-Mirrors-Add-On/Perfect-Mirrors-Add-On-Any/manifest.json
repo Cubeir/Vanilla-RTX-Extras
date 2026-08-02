@@ -1,0 +1,68 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Perfect Mirrors Add-On",
+        "description": "Provides options to turn various blocks into perfect mirrors. Replaces honeycomb block by default.\nActivate above any Vanilla RTX resource pack.",
+        "uuid": "40e72ced-fb3d-4eb4-b572-c1256698ff10",
+        "pack_scope": "any",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_any_perfect_mirrors",
+            "type": "resources",
+            "uuid": "617247da-1f60-4dcb-9d57-2b15c0090475",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "subpacks": [
+        {
+            "folder_name": "4",
+            "name": "Colorful Mirrors (Replaces Concrete Blocks)",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "3",
+            "name": "Cracked Nether Brick Mirror",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "2",
+            "name": "Tinted Glass Mirror",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "1",
+            "name": "White Glass Mirror",
+            "memory_tier": 1
+        },
+        {
+            "folder_name": "0",
+            "name": "Honeycomb Mirror",
+            "memory_tier": 1
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/vanilla-rtx-add-ons"
+    }
+}

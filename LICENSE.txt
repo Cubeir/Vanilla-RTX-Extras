@@ -1,0 +1,2 @@
+This project is licensed under the same terms as Vanilla RTX.
+Original source: https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt
