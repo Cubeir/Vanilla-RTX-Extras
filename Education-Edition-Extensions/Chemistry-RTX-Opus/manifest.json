@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Chemistry RTX Opus",
+        "description": "Additional Education Edition resources for Vanilla RTX Opus.\nActivate per-world.",
+        "uuid": "7702e84d-0d77-4113-86f2-7596f5afec4c",
+        "pack_scope": "world",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "chemistry_rtx_opus",
+            "type": "resources",
+            "uuid": "f3c7d841-3da3-482a-b3bc-be0716fc3420",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced",
+        "chemistry"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/chemistry-rtx"
+    }
+}
