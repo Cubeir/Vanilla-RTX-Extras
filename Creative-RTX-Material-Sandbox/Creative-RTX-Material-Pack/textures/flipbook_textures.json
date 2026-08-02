@@ -20,8 +20,8 @@
     {
         "flipbook_texture": "textures/blocks/element_102_no",
         "atlas_tile": "element_102_no",
-        "ticks_per_frame": 5,
-        "blend_frames": true
+        "ticks_per_frame": 20,
+        "blend_frames": false
     },
     {
         "flipbook_texture": "textures/blocks/element_116_lv",
