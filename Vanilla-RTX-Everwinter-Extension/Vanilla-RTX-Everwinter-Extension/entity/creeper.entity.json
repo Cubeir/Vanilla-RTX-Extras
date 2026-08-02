@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:creeper",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "creeper",
+        "charged": "charged_creeper"
+      },
+      "textures": {
+        "default": "textures/entity/creeper/creeper",
+        "charged": "textures/entity/creeper/creeper_armor"
+      },
+      "geometry": {
+        "default": "geometry.creeper.v1.8",
+        "charged": "geometry.creeper.charged.v1.8"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Vanilla RTX: Everwinter",
+        "description": "An extension of the Vanilla RTX resource pack, everything is covered in frost! Featuring unyielding cold!",
+        "uuid": "5b14ae14-b321-46d7-844b-5d60c32652ac",
+        "pack_scope": "any",
+        "version": [
+            1,
+            22,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_everwinter",
+            "type": "resources",
+            "uuid": "3ee37e39-ae4c-47b5-9ded-7213ce2afba1",
+            "version": [
+                1,
+                22,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://ko-fi.com/cubeir"
+    },
+    "capabilities": [
+        "raytraced"
+    ]
+}
