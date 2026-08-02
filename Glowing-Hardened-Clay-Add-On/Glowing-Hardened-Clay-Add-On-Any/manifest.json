@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Glowing Terracotta Add-On",
+        "description": "Terracotta blocks now emit a radiant, colorful glow.\nActivate above any Vanilla RTX resource pack.",
+        "uuid": "264d992b-a3c4-4667-803d-36f821384582",
+        "pack_scope": "any",
+        "version": [
+            1,
+            26,
+            20
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "description": "vanilla_rtx_any_glowing_terracotta",
+            "type": "resources",
+            "uuid": "da0b8742-bd84-4cec-9931-27cce99e827e",
+            "version": [
+                1,
+                26,
+                20
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/vanilla-rtx-add-ons"
+    }
+}
