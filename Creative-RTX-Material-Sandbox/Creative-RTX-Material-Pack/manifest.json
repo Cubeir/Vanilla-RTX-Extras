@@ -1,0 +1,43 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "cffb5310-9f7c-4821-b541-6e8e2daac3af",
+        "pack_scope": "world",
+        "version": [
+            1,
+            2,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            100
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "bd981a79-0d52-49eb-8b7e-78d26e131b61",
+            "version": [
+                1,
+                2,
+                0
+            ]
+        }
+    ],
+    "capabilities": [
+        "raytraced"
+    ],
+    "metadata": {
+        "authors": [
+            "materialmaker.org",
+            "cc0-textures.com",
+            "ambientcg.com",
+            "Cubeir"
+        ],
+        "license": "https://github.com/Cubeir/Vanilla-RTX/blob/master/LICENSE.txt",
+        "url": "https://mcpedl.com/creative-rtx"
+    }
+}

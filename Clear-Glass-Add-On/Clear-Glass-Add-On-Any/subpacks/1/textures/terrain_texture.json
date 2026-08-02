@@ -1,0 +1,14 @@
+{
+    "resource_pack_name": "vanilla_rtx_any_clear_glass",
+    "texture_data": {
+        "beacon_shell": {
+            "textures": "textures/blocks/glass_beacon"
+        },
+        "glass_carried": {
+            "textures": "textures/blocks/glass_carried"
+        },
+        "glass_pane_top_carried": {
+            "textures": "textures/blocks/glass_pane_top_carried"
+        }
+    }
+}
