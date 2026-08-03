@@ -51,4 +51,5 @@ jobs:
           tag_name: release-${{ steps.build.outputs.iso_date }}-${{ github.run_number }}
           name: "Automated Build (${{ steps.build.outputs.human_date }}) #${{ github.run_number }}"
           body_path: RELEASE_NOTES.md
+          generate_release_notes: true
           files: dist/*
